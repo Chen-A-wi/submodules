@@ -16,4 +16,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "common"
-include (":common")
+include(":common")
+include(":buildLogic")
