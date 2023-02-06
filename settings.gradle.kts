@@ -13,6 +13,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    defaultLibrariesExtensionName.set("libs")
 }
 
 rootProject.name = "common"
