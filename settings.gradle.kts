@@ -13,9 +13,13 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
-    defaultLibrariesExtensionName.set("libs")
+    versionCatalogs {
+        create("libs") {
+            from(files("../submodules/gradle/libs.versions.toml"))
+        }
+    }
 }
 
 rootProject.name = "common"
 include(":common")
-include(":buildLogic")
+include(":subModules:buildLogic")
