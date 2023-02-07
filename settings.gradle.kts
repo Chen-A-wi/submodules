@@ -13,7 +13,9 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    defaultLibrariesExtensionName.set("libs")
 }
 
 rootProject.name = "common"
-include (":common")
+include(":common")
+include(":buildLogic")
