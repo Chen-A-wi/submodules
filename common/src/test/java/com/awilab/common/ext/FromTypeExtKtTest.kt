@@ -1,5 +1,6 @@
 package com.awilab.common.ext
 
+import com.awilab.testing.ext.shouldBe
 import org.junit.jupiter.api.DisplayName
 import org.junit.Test
 

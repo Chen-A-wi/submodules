@@ -1,4 +1,4 @@
-package com.awilab.common.ext
+package com.awilab.testing.ext
 
 import com.google.common.truth.Truth
 
