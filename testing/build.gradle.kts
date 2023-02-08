@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    namespace = "com.awilab.common"
+    namespace = "com.awilab.testing"
     compileSdk = 33
 
     defaultConfig {
         minSdk = 24
 
-        testInstrumentationRunner ="androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles ("consumer-rules.pro")
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -33,8 +33,15 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
+    implementation(project(":common"))
 
-    testImplementation(project(":testing"))
+    api(libs.junit.jupiter)
+    api(libs.junit4)
+    api(libs.androidx.test.ext)
+    api(libs.androidx.test.espresso.core)
+    api(libs.truth)
+    api(libs.junit5.api)
+    api(libs.junit5.jupiter.engine)
+    api(libs.junit5.params)
+    api(libs.junit5.vintage.engine)
 }
