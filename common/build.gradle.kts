@@ -36,5 +36,5 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
 
-    androidTestImplementation(project(":submodules:testing"))
+    testImplementation(project(":submodules:testing"))
 }
