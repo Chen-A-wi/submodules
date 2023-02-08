@@ -33,8 +33,6 @@ android {
 }
 
 dependencies {
-    implementation(project(":submodules:common"))
-
     api(libs.junit.jupiter)
     api(libs.junit4)
     api(libs.androidx.test.ext)
