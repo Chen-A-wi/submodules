@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":common"))
+    implementation(project(":submodules:common"))
 
     api(libs.junit.jupiter)
     api(libs.junit4)
