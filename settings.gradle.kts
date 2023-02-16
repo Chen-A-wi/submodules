@@ -17,5 +17,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "common"
 include(":common")
-include(":buildLogic")
 include(":testing")
