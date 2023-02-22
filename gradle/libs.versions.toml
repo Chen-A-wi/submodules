@@ -17,11 +17,11 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
 
 # UI
-androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
-androidx-compose-material-iconsExtended = { group = "androidx.compose.material", name = "material-icons-extended" }
-androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
-androidx-compose-material3-windowSizeClass = { group = "androidx.compose.material3", name = "material3-window-size-class" }
+#androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+#androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
+#androidx-compose-material-iconsExtended = { group = "androidx.compose.material", name = "material-icons-extended" }
+#androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+#androidx-compose-material3-windowSizeClass = { group = "androidx.compose.material3", name = "material3-window-size-class" }
 
 # Test
 junit-jupiter = {group = "org.junit.jupiter",name = "junit-jupiter"}
