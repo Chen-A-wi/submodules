@@ -1,6 +1,7 @@
 plugins {
 	id("com.android.library")
 	id("org.jetbrains.kotlin.android")
+	id("de.mannodermaus.android-junit5")
 }
 
 android {
@@ -33,5 +34,6 @@ android {
 }
 
 dependencies {
+	api(libs.threeten)
     testImplementation(project(":submodules:testing"))
 }
