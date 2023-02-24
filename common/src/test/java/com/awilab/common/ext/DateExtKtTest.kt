@@ -36,7 +36,6 @@ internal class DateExtKtTest {
 	@Test
 	@DisplayName("測試 LocalTime 轉檔名")
 	fun localTimeFormatToFileNameTest() {
-		println("============= ${localDateTime.toLocalTime().formatToLogFileName()}")
 		localDateTime.toLocalTime().formatToLogFileName() shouldBe "0808"
 	}
 
