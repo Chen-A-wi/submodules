@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-	namespace = "com.awilab.common"
+	namespace = "com.awilab.network"
 	compileSdk = 33
 
 	defaultConfig {
@@ -34,10 +34,12 @@ android {
 }
 
 dependencies {
-	api(libs.threeten)
-	api(libs.blankj)
-	api(libs.koin)
-	api(libs.koin.compat)
-	api(libs.koin.workmanager)
+	api(libs.okhttp)
+	api(libs.okhttp.logging)
+	api(libs.retrofit)
+	api(libs.retrofit.moshi)
+	api(libs.moshi)
+	api(libs.moshi.kotlin)
+	implementation(project(":submodules:common"))
 	testImplementation(project(":submodules:testing"))
 }
