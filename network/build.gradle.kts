@@ -34,6 +34,9 @@ android {
 }
 
 dependencies {
+	api(libs.okhttp)
+	api(libs.retrofit)
+	api(libs.retrofit.moshi)
 	implementation(project(":submodules:common"))
 	testImplementation(project(":submodules:testing"))
 }

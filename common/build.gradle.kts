@@ -35,5 +35,9 @@ android {
 
 dependencies {
 	api(libs.threeten)
-    testImplementation(project(":submodules:testing"))
+	api(libs.blankj)
+	api(libs.koin)
+	api(libs.koin.compat)
+	api(libs.koin.workmanager)
+	testImplementation(project(":submodules:testing"))
 }
