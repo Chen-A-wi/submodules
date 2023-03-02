@@ -37,7 +37,7 @@ dependencies {
 	api(libs.threeten)
 	api(libs.blankj)
 	api(libs.koin)
-	api(libs.koin.compat)
+	api(libs.koin.core)
 	api(libs.koin.workmanager)
 	testImplementation(project(":submodules:testing"))
 }
