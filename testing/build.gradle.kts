@@ -43,4 +43,7 @@ dependencies {
     api(libs.junit5.jupiter.engine)
     api(libs.junit5.params)
     api(libs.junit5.vintage.engine)
+    api(libs.koin.test)
+    api(libs.koin.test.junit4)
+    api(libs.koin.test.junit5)
 }
