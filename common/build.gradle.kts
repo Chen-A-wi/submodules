@@ -39,5 +39,7 @@ dependencies {
 	api(libs.koin)
 	api(libs.koin.core)
 	api(libs.koin.workmanager)
+	api(libs.koin.android.compat)
+	api(libs.koin.androidx.compose)
 	testImplementation(project(":submodules:testing"))
 }
